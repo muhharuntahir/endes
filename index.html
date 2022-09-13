@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Warung Endes</title>
+
+<!--    bootstrap 5.2-->
+<!--    <link href="css/bootstrap.min.css" rel="stylesheet"-->
+<!--          integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--    Custom Style   -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="bg-header">
+    <div class="container-md">
+        <div class="row">
+            <!-- start navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded-bottom px-lg-5 py-lg-3" data-aos="fade-down">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-logo" href="#home">Warung Endes<span class="orange">.</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#promo">Promo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#menu">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">Tentang</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimonials">Testimonial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#faq">FAQ</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ms-auto">
+                            <a href="#contact" class="btn btn-danger px-5" role="button">Hubungi Kami</a>
+                        </ul>
+                    </div>
+                </div>
+            </nav> <!-- end navigation -->
+        </div>
+
+        <!--        start hero-->
+        <div id="home" class="container">
+            <div class="row px-4 py-5">
+                <div class="col-xxl-5 col-xl-6 order-xl-2 bd-highlight" data-aos="fade-up">
+                    <img src="img/image_hero.png" alt="Gambar Hero" class="img-fluid mx-auto d-block">
+                </div>
+
+                <div class="col-xxl-4 col-xl-6 order-xl-1 bd-highlight" data-aos="fade-right">
+                    <h1>Makan Enak Dengan <span class="orange">Rasa Ayam Pedas</span></h1>
+                    <div class="mt-5 d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                            <img src="img/avatar_1.svg" alt="...">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            Sensasi pedas yang menggetarkan <br>
+                            lidah saat pertama kali mencoba!
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <a href="#location" class="btn btn-danger px-4 py-2" role="button"><img src="img/icon_search.svg"><span
+                                class="line-button"></span>Temukan Lokasi</a>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3  ps-xxl-5 my-xxl-5 pt-xxl-5 order-xl-3 bd-highlight feature" data-aos="fade-left">
+                    <div class="float-end">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <img src="img/feature_1.svg" class="shadow-sm p-2 mb-5 rounded-circle" alt="Delivery">
+                            </div>
+                            <div class="flex-grow-1 ms-3 ">
+                                <h4>Pengantaran</h4>
+                                <p>Tiba dengan cepat dan hangat</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="float-end">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <img src="img/feature_2.svg" class="shadow-sm p-2 mb-5 rounded-circle" alt="Delivery">
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h4>Ambil</h4>
+                                <p>Pesan dan ambil makanan Anda</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="float-end">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <img src="img/feature_3.svg" class="shadow-sm p-2 mb-5 rounded-circle" alt="Delivery">
+                            </div>
+                            <div class="flex-grow-1 ms-3 ">
+                                <h4>Ditempat</h4>
+                                <p>Makan di tempat dengan nyaman</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end hero -->
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <div class="px-lg-4 py-lg-3 px-md-1 py-md-0 px-sm-0">
+
+            <!--            start promo-->
+            <section id="promo" class="my-5 py-5">
+                <div class="row justify-content-between" data-aos="fade-up">
+                    <div class="col col-sm-6">
+                        <h2><span class="orange">Promo</span> Menarik</h2>
+                    </div>
+                    <div class="col-3 btn-section">
+                        <a class="btn btn-danger" id="btn-promo" role="button" onclick="myPromo()">Lihat Semua Promo</a>
+                    </div>
+                </div>
+
+                <div class="mt-3 promo-makan" data-aos="zoom-in-up">
+                    <div class="row g-0">
+                        <div class="col-sm-12 col-md-9 bg-orange py-4 px-4">
+                            <div class="clearfix text-white">
+                                <img src="img/promo_1.png" class="col-md-6 float-md-start me-md-4" alt="...">
+                                <h3>Makan Berdua Lebih Seru!</h3>
+                                <p>Khusus pembelian pertama dengan minimum pembelian Rp 60.000,-</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 bg-warning">
+                            <div class="promo">
+                                <p class="promo-satu">10%</p>
+                                <p class="hemat">Lebih Hemat</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-3 promo-diskon" data-aos="zoom-in-up">
+                    <div class="row g-0">
+                        <div class="col-sm-12 col-md-9 bg-green py-4 px-4">
+                            <div class="clearfix text-white">
+                                <img src="img/promo_2.png" class="col-md-6 float-md-start me-md-4" alt="...">
+                                <h3>Diskon Setiap Hari Senin!</h3>
+                                <p>Minimal pemesanan Rp 125.000,- setiap makan siang pukul 12.00 - 14.00</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 bg-success">
+                            <div class="promo">
+                                <p class="diskon">Diskon</p>
+                                <p class="promo-dua">Rp <span>25</span>K</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-3 promo-makan" id="promosi" data-aos="zoom-in-up">
+                    <div class="row g-0">
+                        <div class="col-sm-12 col-md-9 bg-orange py-4 px-4">
+                            <div class="clearfix text-white">
+                                <img src="img/promo_1.png" class="col-md-6 float-md-start me-md-4" alt="...">
+                                <h3>Paket Keluarga!</h3>
+                                <p>Belanja diatas Rp 250.000,- bisa makan ber 6 (enam) bareng teman atau keluarga dengan paket lengkap (Nasi, Ayam Krispy/Geprek (Bisa Pilih Level), Kentang, Sayur, dan Minuman.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 bg-warning">
+                            <div class="promo">
+                                <p class="promo-satu">6</p>
+                                <p class="hemat">Paket Lengkap</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> <!-- end promo -->
+
+            <section id="menu" class="my-5 py-5">
+                <div class="row justify-content-between" data-aos="fade-up">
+                    <div class="col-12 col-lg-4">
+                        <h2>Kategori <span class="orange">Menu Favorit</span> Kami</h2>
+                    </div>
+                    <div class="col-3 btn-section">
+                        <a class="btn btn-danger" role="button"><img src="img/icon_download.svg"><span
+                                class="line-button"></span>Download Menu</a>
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-right"
+                             data-aos-offset="300"
+                             data-aos-easing="ease-in-sine">
+                            <div class="menu-item">
+                                <img src="img/menu_1.png" alt="">
+                                <h4>Makanan</h4>
+                                <p>
+                                    Makanan disajikan dalam kondisi segar dan panas
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
+                             data-aos-offset="300"
+                             data-aos-easing="ease-in-sine">
+                            <div class="menu-item">
+                                <img src="img/menu_2.png" alt="">
+                                <h4>Minuman</h4>
+                                <p>
+                                    Minuman dengan berbagai pilihan rasa
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-left"
+                             data-aos-offset="300"
+                             data-aos-easing="ease-in-sine">
+                            <div class="menu-item">
+                                <img src="img/menu_3.png" alt="">
+                                <h4>Cemilan</h4>
+                                <p>
+                                    Pembuka dan penutup makanan lezatmu
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <section id="about">
+        <div id="social-media" class="bg-black ">
+            <div class="container sosmed">
+                <div class="row justify-content-between px-5" data-aos="zoom-in">
+                    <div class="col-12 col-lg-6">
+                        <h2 class="text-white">Instagram Warung Endes.</h2>
+                    </div>
+                    <div class="col-12 col-lg-3 btn-section">
+                        <a href="https://www.instagram.com/warungendes.id" target="_blank" class="btn btn-danger"
+                           role="button">Ikuti @warungendes.id</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about-us" class="about-us my-5 py-5">
+            <div class="container">
+                <div class="px-4">
+                    <h2 class="m-3" data-aos="fade-up">WarungEndes<span class="orange">.</span></h2>
+
+                    <div class="clearfix">
+                        <img src="img/about-us.png" class="col-md-6 float-md-start me-md-5" alt="..." data-aos="zoom-in-right">
+                        <div data-aos="fade-left"
+                             data-aos-offset="300"
+                             data-aos-easing="ease-in-sine">
+                            <h3>Waktu Buka</h3>
+                            <p>Senin - Jumat : 08.00 - 22.00 WITA</p>
+                            <p>Sabtu - Minggu : 08.00 - 24.00 WITA</p>
+                        </div>
+
+                        <div class="mt-5" data-aos="fade-left"
+                             data-aos-offset="300"
+                             data-aos-easing="ease-in-sine">
+                            <h3>Sekilas Tentang Endes</h3>
+                            <p>Endes adalah restoran cepat saji yang berasal dari Indonesia, dan berkantor pusat di
+                                Makassar, Sulawesi Selatan. Endes terkenal dengan ayam gorengnya yang krispy dan pedas.
+                                Perusahaan ini beroperasi sejak tahun 2019 yang awalnya bernama Warung Mbak Farah<span
+                                        id="dots">...</span>
+                                <span id="more"> dan didirikan oleh Fendi. Sebelumnya Warung Endes hanya menjual Ayam
+                                    Goreng dan Ayam Geprek, namun setelah beberapa bulan berjalan dan diminati oleh para
+                                    pelanggan. Kini Warung Endes menjual berbagai macam makanan fastfood seperti burger,
+                                    kentang goreng, ayam krispy, dan minuman soda.</span>
+                            </p>
+                            <a class="text-danger click-more" onclick="myFunction()" id="myBtn">Baca selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="px-lg-4 py-lg-5 px-0 py-0">
+            <!-- ======= Testimonials Section ======= -->
+            <section id="testimonials" class="testimonials my-5 py-5">
+                <div data-aos="fade-up">
+                    <h2 class="text-center mb-5">Testimoni</h2>
+                </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item mb-4">
+                        <div class="card border-0 bg-testimonials" data-aos="flip-left"
+                             data-aos-easing="ease-out-cubic"
+                             data-aos-duration="2000">
+                            <div class="card-body">
+                                <div class="d-flex mb-3">
+                                    <div class="flex-shrink-0">
+                                        <img src="img/avatar_2.svg" alt="testimonial 1" class="rounded">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5 class="card-title">Wandi Nawawi</h5>
+                                        <p>Guru PNS</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Saya lagi ajak siswa makan di warung. Siswa saya pengen makan ayam krispy dan tidak pedis, sedangkan saya maunya yang pedis. Pas saya lihat iklan Warung Endes. Ternyata di menunya ada paket untuk anak-anak tanpa sambel + ada mainannya juga. Akhirnya kami kesini, dan ternyata kami semua suka! </p>
+
+                                <p class="rating">Rating <span class="ms-5">4.0</span></p>
+                                <i class="orange bi bi-star-fill me-2"></i>
+                                <i class="orange bi bi-star-fill me-2"></i>
+                                <i class="orange bi bi-star-fill me-2"></i>
+                                <i class="orange bi bi-star-fill me-2"></i>
+                                <i class="grey bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mb-4">
+                        <div class="card border-0 bg-testimonials" data-aos="flip-left"
+                             data-aos-easing="ease-out-cubic"
+                             data-aos-duration="2000">
+                            <div class="card-body">
+                                <div class="d-flex mb-3">
+                                    <div class="flex-shrink-0">
+                                        <img src="img/avatar_3.svg" alt="testimonial 1" class="rounded">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5 class="card-title">Muchlis</h5>
+                                        <p>Pegawai Swasta</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Pas lagi istirahat makan siang, teman ngajakin ke Warung Endes. Niat awalnya sih pengen ke tempat sebelah. Tapi kata temen, disini lebih Enak. Karena penasaran, akhirnya ikut coba juga. Ternyata beneran Enak dan kalau istirahat makan siang pasti ke Warung Endes terus.</p>
+                                <p class="rating">Rating <span class="ms-5">4.0</span></p>
+                                <i class="orange bi bi-star-fill me-2"></i>
+                                <i class="orange bi bi-star-fill me-2"></i>
+                                <i class="orange bi bi-star-fill me-2"></i>
+                                <i class="orange bi bi-star-fill me-2"></i>
+                                <i class="grey bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mb-4">
+                        <div class="card border-0 bg-testimonials" data-aos="flip-left"
+                             data-aos-easing="ease-out-cubic"
+                             data-aos-duration="2000">
+                            <div class="card-body">
+                                <div class="d-flex mb-3">
+                                    <div class="flex-shrink-0">
+                                        <img src="img/avatar_4.svg" alt="testimonial 1" class="rounded">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5 class="card-title">Gengen</h5>
+                                        <p>Dokter Hewan</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Setelah bekerja, istri saya pengen makan yang pedas. Saat pertama
+                                    mencoba ayam di Warung Endes, pedasnya Mantap! Punya banyak level dan bisa dipilih
+                                    sesuai selera. Istri saya jadi nagih dan nambah terus karena keenakan.</p>
+                                <p class="rating">Rating <span class="ms-5">4.0</span></p>
+                                <i class="orange bi bi-star-fill me-2"></i>
+                                <i class="orange bi bi-star-fill me-2"></i>
+                                <i class="orange bi bi-star-fill me-2"></i>
+                                <i class="orange bi bi-star-fill me-2"></i>
+                                <i class="grey bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mb-4">
+                        <div class="card border-0 bg-testimonials" data-aos="flip-left"
+                             data-aos-easing="ease-out-cubic"
+                             data-aos-duration="2000">
+                            <div class="card-body">
+                                <div class="d-flex mb-3">
+                                    <div class="flex-shrink-0">
+                                        <img src="img/avatar_1.svg" alt="testimonial 1" class="rounded">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5 class="card-title">Wawan</h5>
+                                        <p>Karyawan Bank</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Sensasi pedas yang menggetarkan
+                                    lidah saat pertama kali mencoba! Warung Endes pokoknya
+                                    Mantap. Coba deh! Saya aja waktu pertama kali ragu, sekarang malah ketagihan datang untuk makan terus di Warung Endes. Pokoknya Mantap banget rasanya!</p>
+                                <p class="rating">Rating <span class="ms-5">4.0</span></p>
+                                <i class="orange bi bi-star-fill me-2"></i>
+                                <i class="orange bi bi-star-fill me-2"></i>
+                                <i class="orange bi bi-star-fill me-2"></i>
+                                <i class="orange bi bi-star-fill me-2"></i>
+                                <i class="grey bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- End Testimonials Section -->
+
+
+            <section id="faq" class="my-5 py-5">
+                <div data-aos="fade-up">
+                    <h2 class="text-center mb-5">Frequently <span class="orange">Asked Questions</span></h2>
+                </div>
+
+                <div class="align-self-center col-12 col-xl-8 m-auto">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item mb-3" data-aos="zoom-in-down">
+                            <h2 class="accordion-header mb-0" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="true"
+                                        aria-controls="flush-collapseOne">
+                                    Bagaimana cara memesan makanan di Warung Endes?
+                                    <i class="bi bi-chevron-down"></i>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae cumque eos error
+                                    explicabo, itaque iure maxime nulla quam quos sed tempora. Ab, accusantium
+                                    aspernatur
+                                    beatae consectetur cum deserunt dolores, ducimus ea earum error expedita impedit
+                                    ipsa
+                                    ipsam iste laudantium magni nam necessitatibus nemo non officia provident quae quam
+                                    quo
+                                    rerum sint soluta suscipit tempore totam, vel veritatis. Aperiam assumenda corporis
+                                    dignissimos dolor doloremque ex, iste natus provident recusandae voluptates? Aliquid
+                                    asperiores consectetur dolores error esse, nihil porro quod ratione rem repellat,
+                                    repellendus sit unde voluptatem. Officiis, perspiciatis vero. Aliquam dolor illum
+                                    ipsam
+                                    itaque neque qui reiciendis repudiandae ut voluptates!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3" data-aos="zoom-in-down">
+                            <h2 class="accordion-header mb-0" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                    Menu apa saja yang dijual di Warung Endes?
+                                    <i class="bi bi-chevron-down"></i>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the second item's
+                                    accordion
+                                    body. Let's imagine this being filled with some actual content.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3" data-aos="zoom-in-down">
+                            <h2 class="accordion-header mb-0" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                    Apakah makanan di Warung Endes masih panas jika diantar?
+                                    <i class="bi bi-chevron-down"></i>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
+                                    accordion
+                                    body. Nothing more exciting happening here in terms of content, but just filling up
+                                    the
+                                    space to make it look, at least at first glance, a bit more representative of how
+                                    this
+                                    would look in a real-world application.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="py-5">
+                    <h2 data-aos="fade-up"><span class="orange">Kontak</span> Kami</h2>
+                    <div class="col contact-us" data-aos="zoom-in-up">
+                        <div class="row g-0">
+                            <div class="col-12 col-md-9 text-white">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3>Ingin Melakukan Pemesanan?</h3>
+                                    </div>
+                                    <div class="col-12">
+                                        <p>Jangan sungkan menghubungi kami, karyawan Endes siap membantu Anda.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-xl-3 mt-md-3 ps-xl-5">
+                                <div class="row">
+                                    <a href="#contact" class="btn btn-success btn-lg" role="button"><i
+                                            class="bi bi-whatsapp"></i><span class="line-button"></span>Whatsapp</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="location">
+                <div class="py-5 mt-xl-5">
+                    <div class="clearfix">
+                        <h2 data-aos="fade-up"><span class="orange" >Lokasi</span> WarungEndes.</h2>
+                        <iframe class="col-12 col-lg-5 float-md-end mb-3 ms-md-3"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d661.042822122839!2d119.63652857560241!3d-3.993646913941149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d95baefead988ad%3A0x8ec8bf2d4414411e!2sWarung%20Mbak%20Farah!5e0!3m2!1sen!2sid!4v1663080304078!5m2!1sen!2sid"
+                                height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade" data-aos="fade-down-left"></iframe>
+                        <h5 class="mt-2 mt-md-5" data-aos="fade-down-right">PAREPARE, INDONESIA</h5>
+                        <p class="mt-lg-4" data-aos="fade-down-right">Jl. H. A. Muh. Arsyad No.396 E RT.001 / RW. 006,</p>
+                        <p data-aos="fade-down-right">Bulu Nippong, Soreang, Kota Parepare, Sulawesi Selatan</p>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div id="order-now" class="order-now text-white align-self-center col-12 col-xl-7 m-auto text-center mb-5" >
+            <h3 data-aos="fade-up">Nikmati berbagai macam makanan enak dan pedas. Hanya di Warung Endes!</h3>
+            <a href="#" class="btn btn-lg btn-warning mt-4 fw-bold" data-aos="zoom-in-up">Pesan Sekarang</a>
+        </div>
+        <div id="footer" class="footer-end">
+            <div class="d-flex text-white justify-content-lg-between">
+                <h1 class="text-logo">Warung Endes</h1>
+                <p class="ms-lg-auto footer-tengah">© 2022 <span class="orange">Warung Endes</span> | All Rights
+                    Reserved</p>
+                 <i class="ms-lg-auto bi bi-instagram"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--bootstrap 5.2-->
+<!--<script src="js/bootstrap.bundle.min.js"-->
+<!--        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"-->
+<!--        crossorigin="anonymous"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<!--jquery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!--owl caraousel-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+<!-- animate -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
